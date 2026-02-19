@@ -1,0 +1,7 @@
+[install]
+
+# installation strategy: "hoisted" or "isolated"
+# default depends on lockfile configVersion and workspaces:
+# - configVersion = 1: "isolated" if using workspaces, otherwise "hoisted"
+# - configVersion = 0: "hoisted"
+linker = "hoisted"

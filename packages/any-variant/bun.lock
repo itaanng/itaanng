@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "css-variants": "^2.3.4",
+        "tailwind-merge": "^3.4.0",
+      },
+    },
+  },
+  "packages": {
+    "css-variants": ["css-variants@2.3.4", "", {}, "sha512-PTttHIRgLxDMQnEMZH5GERO8gKpIBW5qwHg8SxEQWG/UwYZO/7tHYVIizmu+286Y0oJ6Ct0dC5X3c6A4s8mK4A=="],
+
+    "tailwind-merge": ["tailwind-merge@3.4.0", "", {}, "sha512-uSaO4gnW+b3Y2aWoWfFpX62vn2sR3skfhbjsEnaBI81WD1wBLlHZe5sWf0AqjksNdYTbGBEd0UasQMT3SNV15g=="],
+  }
+}

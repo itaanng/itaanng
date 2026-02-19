@@ -1,0 +1,2 @@
+[test]
+preload = ["../../_happy-dom.ts", "../../_testing-library.ts"]

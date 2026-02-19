@@ -1,0 +1,22 @@
+{
+  "name": "@itaanng/any-variant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix"
+  },
+  "imports": {
+    "#lib/*": "./lib/*.ts",
+    "#components/*": "./components/*.tsx"
+  },
+  "dependencies": {
+    "css-variants": "^2.3.4",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
+  }
+}

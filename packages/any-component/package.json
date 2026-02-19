@@ -1,0 +1,25 @@
+{
+  "name": "@itaanng/any-component",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix"
+  },
+  "imports": {
+    "#lib/*": "./lib/*.ts",
+    "#components/*": "./components/*.tsx"
+  },
+  "dependencies": {
+    "@itaanng/any-variant": "workspace:*",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "^0.564.0",
+    "radix-ui": "^1.4.3",
+    "vaul": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
+  }
+}
